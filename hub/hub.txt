@@ -1,0 +1,6 @@
+
+hub NETCAGE-CAGE
+shortLabel NET-CAGE and CAGE
+longLabel NET-CAGE data  (with CAGE) in five ENCODE cell lines (MCF-7, GM12878, HeLa-S3, HepG2 and K562)
+genomesFile genomes.txt
+email shruti.bhagat@riken.jp

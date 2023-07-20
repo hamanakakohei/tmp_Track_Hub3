@@ -1,0 +1,1284 @@
+
+track CAGE_merged.st
+shortLabel CAGE_merged
+longLabel CAGE_merged
+superTrack on show
+visibility pack
+priority 2.0
+
+	track CAGE_merged.st|CAGE_n2_merged_TPM_GM.mw
+	shortLabel CAGE_n2_merged_TPM_GM
+	longLabel CAGE_merged_CAGE_n2_merged_TPM_GM
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent CAGE_merged.st
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_GM.mw|CAGE_n2_merged_TPM_GM.fwd.bw
+		shortLabel CAGE_n2_merged_TPM_GM.fwd
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_GM_CAGE_n2_merged_TPM_GM.fwd
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_GM.mw/CAGE_n2_merged_TPM_GM.fwd.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_GM.mw|CAGE_n2_merged_TPM_GM.rev.bw
+		shortLabel CAGE_n2_merged_TPM_GM.rev
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_GM_CAGE_n2_merged_TPM_GM.rev
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_GM.mw/CAGE_n2_merged_TPM_GM.rev.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track CAGE_merged.st|CAGE_n2_merged_TPM_HeLa.mw
+	shortLabel CAGE_n2_merged_TPM_HeLa
+	longLabel CAGE_merged_CAGE_n2_merged_TPM_HeLa
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent CAGE_merged.st
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_HeLa.mw|CAGE_n2_merged_TPM_HeLa.fwd.bw
+		shortLabel CAGE_n2_merged_TPM_HeLa.fwd
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_HeLa_CAGE_n2_merged_TPM_HeLa.fwd
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_HeLa.mw/CAGE_n2_merged_TPM_HeLa.fwd.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_HeLa.mw|CAGE_n2_merged_TPM_HeLa.rev.bw
+		shortLabel CAGE_n2_merged_TPM_HeLa.rev
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_HeLa_CAGE_n2_merged_TPM_HeLa.rev
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_HeLa.mw/CAGE_n2_merged_TPM_HeLa.rev.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track CAGE_merged.st|CAGE_n2_merged_TPM_Hep.mw
+	shortLabel CAGE_n2_merged_TPM_Hep
+	longLabel CAGE_merged_CAGE_n2_merged_TPM_Hep
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent CAGE_merged.st
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_Hep.mw|CAGE_n2_merged_TPM_Hep.fwd.bw
+		shortLabel CAGE_n2_merged_TPM_Hep.fwd
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_Hep_CAGE_n2_merged_TPM_Hep.fwd
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_Hep.mw/CAGE_n2_merged_TPM_Hep.fwd.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_Hep.mw|CAGE_n2_merged_TPM_Hep.rev.bw
+		shortLabel CAGE_n2_merged_TPM_Hep.rev
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_Hep_CAGE_n2_merged_TPM_Hep.rev
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_Hep.mw/CAGE_n2_merged_TPM_Hep.rev.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track CAGE_merged.st|CAGE_n2_merged_TPM_K562.mw
+	shortLabel CAGE_n2_merged_TPM_K562
+	longLabel CAGE_merged_CAGE_n2_merged_TPM_K562
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent CAGE_merged.st
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_K562.mw|CAGE_n2_merged_TPM_K562.fwd.bw
+		shortLabel CAGE_n2_merged_TPM_K562.fwd
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_K562_CAGE_n2_merged_TPM_K562.fwd
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_K562.mw/CAGE_n2_merged_TPM_K562.fwd.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_K562.mw|CAGE_n2_merged_TPM_K562.rev.bw
+		shortLabel CAGE_n2_merged_TPM_K562.rev
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_K562_CAGE_n2_merged_TPM_K562.rev
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_K562.mw/CAGE_n2_merged_TPM_K562.rev.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw
+	shortLabel CAGE_n2_merged_TPM_MCF7
+	longLabel CAGE_merged_CAGE_n2_merged_TPM_MCF7
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent CAGE_merged.st
+	visibility full
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw|CAGE_n2_merged_TPM_MCF7.fwd.bw
+		shortLabel CAGE_n2_merged_TPM_MCF7.fwd
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_MCF7_CAGE_n2_merged_TPM_MCF7.fwd
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_MCF7.mw/CAGE_n2_merged_TPM_MCF7.fwd.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw|CAGE_n2_merged_TPM_MCF7.rev.bw
+		shortLabel CAGE_n2_merged_TPM_MCF7.rev
+		longLabel CAGE_merged_CAGE_n2_merged_TPM_MCF7_CAGE_n2_merged_TPM_MCF7.rev
+		type bigWig
+		bigDataUrl ./hg19/CAGE_merged.st/CAGE_n2_merged_TPM_MCF7.mw/CAGE_n2_merged_TPM_MCF7.rev.bw
+		autoScale on
+		parent CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+
+
+track NETCAGE_merged.st
+shortLabel NETCAGE_merged
+longLabel NETCAGE_merged
+superTrack on show
+visibility pack
+priority 1.0
+
+	track NETCAGE_merged.st|NETCAGE_n14_merged_TPM_GM.mw
+	shortLabel NETCAGE_n14_merged_TPM_GM
+	longLabel NETCAGE_merged_NETCAGE_n14_merged_TPM_GM
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track NETCAGE_merged.st|NETCAGE_n14_merged_TPM_GM.mw|NETCAGE_n14_merged_TPM_GM.fwd.bw
+		shortLabel NETCAGE_n14_merged_TPM_GM.fwd
+		longLabel NETCAGE_merged_NETCAGE_n14_merged_TPM_GM_NETCAGE_n14_merged_TPM_GM.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n14_merged_TPM_GM.mw/NETCAGE_n14_merged_TPM_GM.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n14_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track NETCAGE_merged.st|NETCAGE_n14_merged_TPM_GM.mw|NETCAGE_n14_merged_TPM_GM.rev.bw
+		shortLabel NETCAGE_n14_merged_TPM_GM.rev
+		longLabel NETCAGE_merged_NETCAGE_n14_merged_TPM_GM_NETCAGE_n14_merged_TPM_GM.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n14_merged_TPM_GM.mw/NETCAGE_n14_merged_TPM_GM.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n14_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_GM.mw
+	shortLabel NETCAGE_n2_merged_TPM_GM
+	longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_GM
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_GM.mw|NETCAGE_n2_merged_TPM_GM.fwd.bw
+		shortLabel NETCAGE_n2_merged_TPM_GM.fwd
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_GM_NETCAGE_n2_merged_TPM_GM.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_GM.mw/NETCAGE_n2_merged_TPM_GM.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_GM.mw|NETCAGE_n2_merged_TPM_GM.rev.bw
+		shortLabel NETCAGE_n2_merged_TPM_GM.rev
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_GM_NETCAGE_n2_merged_TPM_GM.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_GM.mw/NETCAGE_n2_merged_TPM_GM.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_GM.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_HeLa.mw
+	shortLabel NETCAGE_n2_merged_TPM_HeLa
+	longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_HeLa
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track 12d5429c21121a81537af4433941d18c
+		shortLabel NETCAGE_n2_merged_TPM_HeLa.fwd
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_HeLa_NETCAGE_n2_merged_TPM_HeLa.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_HeLa.mw/NETCAGE_n2_merged_TPM_HeLa.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track fc5fc27703a9792fe7886b5ee788f723
+		shortLabel NETCAGE_n2_merged_TPM_HeLa.rev
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_HeLa_NETCAGE_n2_merged_TPM_HeLa.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_HeLa.mw/NETCAGE_n2_merged_TPM_HeLa.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_Hep.mw
+	shortLabel NETCAGE_n2_merged_TPM_Hep
+	longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_Hep
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_Hep.mw|NETCAGE_n2_merged_TPM_Hep.fwd.bw
+		shortLabel NETCAGE_n2_merged_TPM_Hep.fwd
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_Hep_NETCAGE_n2_merged_TPM_Hep.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_Hep.mw/NETCAGE_n2_merged_TPM_Hep.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_Hep.mw|NETCAGE_n2_merged_TPM_Hep.rev.bw
+		shortLabel NETCAGE_n2_merged_TPM_Hep.rev
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_Hep_NETCAGE_n2_merged_TPM_Hep.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_Hep.mw/NETCAGE_n2_merged_TPM_Hep.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_K562.mw
+	shortLabel NETCAGE_n2_merged_TPM_K562
+	longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_K562
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track 78553d72ec3d62053219b8af31733422
+		shortLabel NETCAGE_n2_merged_TPM_K562.fwd
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_K562_NETCAGE_n2_merged_TPM_K562.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_K562.mw/NETCAGE_n2_merged_TPM_K562.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track 7ad0a0f1d8a494fd0ed7e9c7773c3316
+		shortLabel NETCAGE_n2_merged_TPM_K562.rev
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_K562_NETCAGE_n2_merged_TPM_K562.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_K562.mw/NETCAGE_n2_merged_TPM_K562.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n2_merged_TPM_MCF7.mw
+	shortLabel NETCAGE_n2_merged_TPM_MCF7
+	longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_MCF7
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+	visibility full
+
+		track fce1ea3e1759d5d196603766c709eb46
+		shortLabel NETCAGE_n2_merged_TPM_MCF7.fwd
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_MCF7_NETCAGE_n2_merged_TPM_MCF7.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_MCF7.mw/NETCAGE_n2_merged_TPM_MCF7.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track 34eb552c7e2184e8589f4896ace41ce5
+		shortLabel NETCAGE_n2_merged_TPM_MCF7.rev
+		longLabel NETCAGE_merged_NETCAGE_n2_merged_TPM_MCF7_NETCAGE_n2_merged_TPM_MCF7.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n2_merged_TPM_MCF7.mw/NETCAGE_n2_merged_TPM_MCF7.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n2_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n46_merged_TPM_MCF7.mw
+	shortLabel NETCAGE_n46_merged_TPM_MCF7
+	longLabel NETCAGE_merged_NETCAGE_n46_merged_TPM_MCF7
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track 6873e3074486c1f5c5d5df23aaab47f2
+		shortLabel NETCAGE_n46_merged_TPM_MCF7.fwd
+		longLabel NETCAGE_merged_NETCAGE_n46_merged_TPM_MCF7_NETCAGE_n46_merged_TPM_MCF7.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n46_merged_TPM_MCF7.mw/NETCAGE_n46_merged_TPM_MCF7.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n46_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track d98cee3855a7861a897f7d971f9ad46b
+		shortLabel NETCAGE_n46_merged_TPM_MCF7.rev
+		longLabel NETCAGE_merged_NETCAGE_n46_merged_TPM_MCF7_NETCAGE_n46_merged_TPM_MCF7.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n46_merged_TPM_MCF7.mw/NETCAGE_n46_merged_TPM_MCF7.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n46_merged_TPM_MCF7.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n6_merged_TPM_HeLa.mw
+	shortLabel NETCAGE_n6_merged_TPM_HeLa
+	longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_HeLa
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track 202408de60c0ae29392f35dad7bdf01d
+		shortLabel NETCAGE_n6_merged_TPM_HeLa.fwd
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_HeLa_NETCAGE_n6_merged_TPM_HeLa.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_HeLa.mw/NETCAGE_n6_merged_TPM_HeLa.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track 49523e6c6cb358b5c881ab9380b90f23
+		shortLabel NETCAGE_n6_merged_TPM_HeLa.rev
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_HeLa_NETCAGE_n6_merged_TPM_HeLa.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_HeLa.mw/NETCAGE_n6_merged_TPM_HeLa.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_HeLa.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n6_merged_TPM_Hep.mw
+	shortLabel NETCAGE_n6_merged_TPM_Hep
+	longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_Hep
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track NETCAGE_merged.st|NETCAGE_n6_merged_TPM_Hep.mw|NETCAGE_n6_merged_TPM_Hep.fwd.bw
+		shortLabel NETCAGE_n6_merged_TPM_Hep.fwd
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_Hep_NETCAGE_n6_merged_TPM_Hep.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_Hep.mw/NETCAGE_n6_merged_TPM_Hep.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track NETCAGE_merged.st|NETCAGE_n6_merged_TPM_Hep.mw|NETCAGE_n6_merged_TPM_Hep.rev.bw
+		shortLabel NETCAGE_n6_merged_TPM_Hep.rev
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_Hep_NETCAGE_n6_merged_TPM_Hep.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_Hep.mw/NETCAGE_n6_merged_TPM_Hep.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_Hep.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+	track NETCAGE_merged.st|NETCAGE_n6_merged_TPM_K562.mw
+	shortLabel NETCAGE_n6_merged_TPM_K562
+	longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_K562
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent NETCAGE_merged.st
+
+		track b54dabd9c439e2bbbaf264777f6df885
+		shortLabel NETCAGE_n6_merged_TPM_K562.fwd
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_K562_NETCAGE_n6_merged_TPM_K562.fwd
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_K562.mw/NETCAGE_n6_merged_TPM_K562.fwd.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 255,0,0
+
+
+
+		track 4c364bcc872f5de0104322391acfdce7
+		shortLabel NETCAGE_n6_merged_TPM_K562.rev
+		longLabel NETCAGE_merged_NETCAGE_n6_merged_TPM_K562_NETCAGE_n6_merged_TPM_K562.rev
+		type bigWig
+		bigDataUrl ./hg19/NETCAGE_merged.st/NETCAGE_n6_merged_TPM_K562.mw/NETCAGE_n6_merged_TPM_K562.rev.bw
+		autoScale on
+		parent NETCAGE_merged.st|NETCAGE_n6_merged_TPM_K562.mw
+		maxHeightPixels 127:50:7
+		visibility full
+		color 0,0,255
+
+
+
+
+
+
+
+track individual.st
+shortLabel individual
+longLabel individual
+superTrack on
+visibility pack
+priority 3.0
+
+	track individual.st|CNhi10878_NoIndex_L008_R1_001.1-MCF-T.mw
+	shortLabel CNhi10878_NoIndex_L008_R1_001.1-MCF-T
+	longLabel individual_CNhi10878_NoIndex_L008_R1_001.1-MCF-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 46326dd17bad7530408a67bb98d40e64
+		shortLabel CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.1-MCF-T_CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.1-MCF-T.mw/CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.1-MCF-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 0eae545802a9d17843442be4a2052dc6
+		shortLabel CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.1-MCF-T_CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.1-MCF-T.mw/CNhi10878_NoIndex_L008_R1_001.1-MCF-T_ACC_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.1-MCF-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10878_NoIndex_L008_R1_001.4-MCF-2.mw
+	shortLabel CNhi10878_NoIndex_L008_R1_001.4-MCF-2
+	longLabel individual_CNhi10878_NoIndex_L008_R1_001.4-MCF-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track aada73e37b4284e3b7b6b62c11f3ca0f
+		shortLabel CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.4-MCF-2_CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.4-MCF-2.mw/CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.4-MCF-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 5c1b23988baa070b6eee54797e7534c5
+		shortLabel CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.4-MCF-2_CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.4-MCF-2.mw/CNhi10878_NoIndex_L008_R1_001.4-MCF-2_GCG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.4-MCF-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10878_NoIndex_L008_R1_001.5-MCF-T.mw
+	shortLabel CNhi10878_NoIndex_L008_R1_001.5-MCF-T
+	longLabel individual_CNhi10878_NoIndex_L008_R1_001.5-MCF-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track ba0c2a9f2b7b9324621b6d3678283da1
+		shortLabel CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.5-MCF-T_CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.5-MCF-T.mw/CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.5-MCF-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track b8f16de370369c378414a72979a975c8
+		shortLabel CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.5-MCF-T_CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.5-MCF-T.mw/CNhi10878_NoIndex_L008_R1_001.5-MCF-T_ATG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.5-MCF-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10878_NoIndex_L008_R1_001.8-MCF-2.mw
+	shortLabel CNhi10878_NoIndex_L008_R1_001.8-MCF-2
+	longLabel individual_CNhi10878_NoIndex_L008_R1_001.8-MCF-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track ce44c17ad9337d5b2d691576bd2ce92c
+		shortLabel CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.8-MCF-2_CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.8-MCF-2.mw/CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.8-MCF-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track a88462acbebac8b775abcd200982a92e
+		shortLabel CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10878_NoIndex_L008_R1_001.8-MCF-2_CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10878_NoIndex_L008_R1_001.8-MCF-2.mw/CNhi10878_NoIndex_L008_R1_001.8-MCF-2_GCT_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10878_NoIndex_L008_R1_001.8-MCF-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10917_NoIndex_L003_R1_001.1-GM-T.mw
+	shortLabel CNhi10917_NoIndex_L003_R1_001.1-GM-T
+	longLabel individual_CNhi10917_NoIndex_L003_R1_001.1-GM-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 994fc32a850720b8f53e41f64d5e05b4
+		shortLabel CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.1-GM-T_CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.1-GM-T.mw/CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.1-GM-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 51b3790abe4bbc6c208e1218f5887ace
+		shortLabel CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.1-GM-T_CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.1-GM-T.mw/CNhi10917_NoIndex_L003_R1_001.1-GM-T_ACC_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.1-GM-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10917_NoIndex_L003_R1_001.4-GM-2.mw
+	shortLabel CNhi10917_NoIndex_L003_R1_001.4-GM-2
+	longLabel individual_CNhi10917_NoIndex_L003_R1_001.4-GM-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 0fc9a5eeb9f0b5e7b19f5f84ba3a408d
+		shortLabel CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.4-GM-2_CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.4-GM-2.mw/CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.4-GM-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track d0a3d133d29c581568d8604189a824c5
+		shortLabel CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.4-GM-2_CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.4-GM-2.mw/CNhi10917_NoIndex_L003_R1_001.4-GM-2_0_GCG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.4-GM-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10917_NoIndex_L003_R1_001.5-GM-T.mw
+	shortLabel CNhi10917_NoIndex_L003_R1_001.5-GM-T
+	longLabel individual_CNhi10917_NoIndex_L003_R1_001.5-GM-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 1dd7ca0003fc2be579d425030341fdc6
+		shortLabel CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.5-GM-T_CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.5-GM-T.mw/CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.5-GM-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 7c9a344b56d227e6c42a1c45efb52042
+		shortLabel CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.5-GM-T_CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.5-GM-T.mw/CNhi10917_NoIndex_L003_R1_001.5-GM-T_ATG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.5-GM-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10917_NoIndex_L003_R1_001.8-GM-2.mw
+	shortLabel CNhi10917_NoIndex_L003_R1_001.8-GM-2
+	longLabel individual_CNhi10917_NoIndex_L003_R1_001.8-GM-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 2cf1a21aa38928dd3eb80ca29708da89
+		shortLabel CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.8-GM-2_CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.8-GM-2.mw/CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.8-GM-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track c23faa85acb82e03b2472fc8f1db11d0
+		shortLabel CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10917_NoIndex_L003_R1_001.8-GM-2_CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10917_NoIndex_L003_R1_001.8-GM-2.mw/CNhi10917_NoIndex_L003_R1_001.8-GM-2_0_GCT_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10917_NoIndex_L003_R1_001.8-GM-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10918_NoIndex_L006_R1_001.1-HeLa-T.mw
+	shortLabel CNhi10918_NoIndex_L006_R1_001.1-HeLa-T
+	longLabel individual_CNhi10918_NoIndex_L006_R1_001.1-HeLa-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track b489e57ab77ca154b10e52f8491ec5d6
+		shortLabel CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.1-HeLa-T.mw/CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.1-HeLa-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track d192f444280918960d6958119f4b6c0e
+		shortLabel CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.1-HeLa-T.mw/CNhi10918_NoIndex_L006_R1_001.1-HeLa-T_ACC_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.1-HeLa-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10918_NoIndex_L006_R1_001.4-HeLa-2.mw
+	shortLabel CNhi10918_NoIndex_L006_R1_001.4-HeLa-2
+	longLabel individual_CNhi10918_NoIndex_L006_R1_001.4-HeLa-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 31ec4680fb507ee11e34585c3603925d
+		shortLabel CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.4-HeLa-2.mw/CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.4-HeLa-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 90874e66b4c52d28a16754f34b0eda5b
+		shortLabel CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.4-HeLa-2.mw/CNhi10918_NoIndex_L006_R1_001.4-HeLa-2_0_GCG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.4-HeLa-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10918_NoIndex_L006_R1_001.5-HeLa-T.mw
+	shortLabel CNhi10918_NoIndex_L006_R1_001.5-HeLa-T
+	longLabel individual_CNhi10918_NoIndex_L006_R1_001.5-HeLa-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track a923d6d841f36b83fdffd33ee20975db
+		shortLabel CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.5-HeLa-T.mw/CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.5-HeLa-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track e16dd032d42b319bd5c77c47f7023e18
+		shortLabel CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.5-HeLa-T.mw/CNhi10918_NoIndex_L006_R1_001.5-HeLa-T_ATG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.5-HeLa-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10918_NoIndex_L006_R1_001.8-HeLa-2.mw
+	shortLabel CNhi10918_NoIndex_L006_R1_001.8-HeLa-2
+	longLabel individual_CNhi10918_NoIndex_L006_R1_001.8-HeLa-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 82d562f38a5950de60e3ff260b7cf3ab
+		shortLabel CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.8-HeLa-2.mw/CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.8-HeLa-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 4769439c62123fce5f5872f47b2dd1c8
+		shortLabel CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10918_NoIndex_L006_R1_001.8-HeLa-2.mw/CNhi10918_NoIndex_L006_R1_001.8-HeLa-2_0_GCT_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10918_NoIndex_L006_R1_001.8-HeLa-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10919_NoIndex_L004_R1_001.1-Hep-T.mw
+	shortLabel CNhi10919_NoIndex_L004_R1_001.1-Hep-T
+	longLabel individual_CNhi10919_NoIndex_L004_R1_001.1-Hep-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 7a4a44adb1d8a30d3e0af88661fa5f93
+		shortLabel CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.1-Hep-T_CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.1-Hep-T.mw/CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.1-Hep-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 92105c333baf00b5d11657b09dc35cfe
+		shortLabel CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.1-Hep-T_CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.1-Hep-T.mw/CNhi10919_NoIndex_L004_R1_001.1-Hep-T_ACC_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.1-Hep-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10919_NoIndex_L004_R1_001.4-Hep-2.mw
+	shortLabel CNhi10919_NoIndex_L004_R1_001.4-Hep-2
+	longLabel individual_CNhi10919_NoIndex_L004_R1_001.4-Hep-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 8caa84055941bffb992070426615479b
+		shortLabel CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.4-Hep-2_CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.4-Hep-2.mw/CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.4-Hep-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 8cbd68e2608430f73967eef461658a14
+		shortLabel CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.4-Hep-2_CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.4-Hep-2.mw/CNhi10919_NoIndex_L004_R1_001.4-Hep-2_0_GCG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.4-Hep-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10919_NoIndex_L004_R1_001.5-Hep-T.mw
+	shortLabel CNhi10919_NoIndex_L004_R1_001.5-Hep-T
+	longLabel individual_CNhi10919_NoIndex_L004_R1_001.5-Hep-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track a3623bb2319a1fddec8e70d575d05754
+		shortLabel CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.5-Hep-T_CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.5-Hep-T.mw/CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.5-Hep-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 78e2a6329f4fa0f26e56ab2a7984f27f
+		shortLabel CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.5-Hep-T_CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.5-Hep-T.mw/CNhi10919_NoIndex_L004_R1_001.5-Hep-T_ATG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.5-Hep-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10919_NoIndex_L004_R1_001.8-Hep-2.mw
+	shortLabel CNhi10919_NoIndex_L004_R1_001.8-Hep-2
+	longLabel individual_CNhi10919_NoIndex_L004_R1_001.8-Hep-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 168c01ace14ba289317aabf04394f364
+		shortLabel CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.8-Hep-2_CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.8-Hep-2.mw/CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.8-Hep-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track fe7498d833c318ec4fd1f91f7da1897a
+		shortLabel CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10919_NoIndex_L004_R1_001.8-Hep-2_CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10919_NoIndex_L004_R1_001.8-Hep-2.mw/CNhi10919_NoIndex_L004_R1_001.8-Hep-2_0_GCT_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10919_NoIndex_L004_R1_001.8-Hep-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10920_NoIndex_L005_R1_001.1-K562-T.mw
+	shortLabel CNhi10920_NoIndex_L005_R1_001.1-K562-T
+	longLabel individual_CNhi10920_NoIndex_L005_R1_001.1-K562-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track b66b2e1f54f442e4bbbf383e1b4594ad
+		shortLabel CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.1-K562-T_CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.1-K562-T.mw/CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.1-K562-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track a234793c48e024318c244d6db8c32a39
+		shortLabel CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.1-K562-T_CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.1-K562-T.mw/CNhi10920_NoIndex_L005_R1_001.1-K562-T_ACC_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.1-K562-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10920_NoIndex_L005_R1_001.4-K562-2.mw
+	shortLabel CNhi10920_NoIndex_L005_R1_001.4-K562-2
+	longLabel individual_CNhi10920_NoIndex_L005_R1_001.4-K562-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 0a5a367016f1d358a4045096e16e7936
+		shortLabel CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.4-K562-2_CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.4-K562-2.mw/CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.4-K562-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track c3955de936374fe9aa46a2d070bbca0c
+		shortLabel CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.4-K562-2_CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.4-K562-2.mw/CNhi10920_NoIndex_L005_R1_001.4-K562-2_0_GCG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.4-K562-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10920_NoIndex_L005_R1_001.5-K562-T.mw
+	shortLabel CNhi10920_NoIndex_L005_R1_001.5-K562-T
+	longLabel individual_CNhi10920_NoIndex_L005_R1_001.5-K562-T
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track dd1d6c793c7dc5e03444c84668d21eb5
+		shortLabel CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.5-K562-T_CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.5-K562-T.mw/CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.5-K562-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 595c26d96ea9957c03babdc0676bbcaf
+		shortLabel CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.5-K562-T_CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.5-K562-T.mw/CNhi10920_NoIndex_L005_R1_001.5-K562-T_ATG_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.5-K562-T.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+	track individual.st|CNhi10920_NoIndex_L005_R1_001.8-K562-2.mw
+	shortLabel CNhi10920_NoIndex_L005_R1_001.8-K562-2
+	longLabel individual_CNhi10920_NoIndex_L005_R1_001.8-K562-2
+	container multiWig
+	type bigWig
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	parent individual.st
+
+		track 5e9f465244df7625e6608dbcdc2954a7
+		shortLabel CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.fwd.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.8-K562-2_CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.fwd.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.8-K562-2.mw/CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.fwd.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.8-K562-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+		track 1a6630c184d3843c8bda04dbb25b88c4
+		shortLabel CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.rev.cpm
+		longLabel individual_CNhi10920_NoIndex_L005_R1_001.8-K562-2_CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.rev.cpm
+		type bigWig
+		bigDataUrl ./hg19/individual.st/CNhi10920_NoIndex_L005_R1_001.8-K562-2.mw/CNhi10920_NoIndex_L005_R1_001.8-K562-2_0_GCT_STAR.ctss.rev.cpm.bw
+		autoScale on
+		parent individual.st|CNhi10920_NoIndex_L005_R1_001.8-K562-2.mw
+		maxHeightPixels 127:50:7
+		visibility full
+
+
+
+
+
+

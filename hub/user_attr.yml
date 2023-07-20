@@ -1,0 +1,38 @@
+---
+Hub:
+  hub: NETCAGE-CAGE
+  email: 
+  shortLabel: NET-CAGE and CAGE
+  longLabel: NET-CAGE data  (with CAGE) in five ENCODE cell lines (MCF-7, GM12878, HeLa-S3, HepG2 and K562)
+  genomesFile: genomes.txt
+  email: shruti.bhagat@riken.jp
+TrackBw:
+  maxHeightPixels: "127:50:7"
+  visibility: full
+TrackBb:
+  type: bigBed
+  url: http://chip-atlas.org/
+  color: "60,200,200"
+  visibility: pack
+TrackCt:
+  visibility: pack
+TrackSt:
+  visibility: pack
+Suffix:
+  .fwd.bw:
+    color: "255,0,0"
+  .rev.bw:
+    color: "0,0,255"
+TrackName:
+  individual.st:
+    priority: 3.0
+  CAGE_merged.st:
+    priority: 2.0
+    superTrack: on show
+  NETCAGE_merged.st:
+    priority: 1.0
+    superTrack: on show
+  'CAGE_merged.st|CAGE_n2_merged_TPM_MCF7.mw':
+    visibility: full
+  'NETCAGE_merged.st|NETCAGE_n2_merged_TPM_MCF7.mw':
+    visibility: full
